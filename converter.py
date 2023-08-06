@@ -60,5 +60,6 @@ for child in mainframe.winfo_children():
 ounces_entry.focus()
 pounds_entry.focus()
 root.bind("<Return>", solve)
+root.bind("<Return>", solve2, add="+")
 
 root.mainloop()
